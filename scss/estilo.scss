@@ -1,0 +1,760 @@
+@import "variables";
+@import "nosotros";
+@import "servicios";
+@import "contacto";
+@import "blog";
+@import "producto1";
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+header nav {
+    width: 100%;
+    
+}
+
+.logoPufu {
+    float: left;
+    width: 100px;
+}
+
+.logoPufu img {
+    width: 100px;
+    padding-top: 15px;
+    margin-left: 80px;
+}
+
+.logoPufu img:hover { 
+    width: 96px;
+    padding-top: 17px;
+    margin-left: 82px;
+}
+
+.menu_bar {
+    display: none;
+}
+
+header nav ul {
+    margin-right: 80px;
+    overflow: hidden;
+    list-style: none;  
+}
+
+header nav ul li {
+    padding-top: 50px;
+    float: right;
+}
+
+header nav ul li a {
+    font-family: $titulo;
+    font-size: 18px;
+    color:$verde;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.activo {
+    color: $azul;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: $azul;
+}
+
+
+
+
+#principal {
+    min-height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/pufuImagenPrincipal.jpg);
+}
+#principal h1 {
+    padding-top: 620px;
+    padding-left: 150px;
+    font-family: $titulo;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 50px;
+    color: $verde;}
+
+#principal p { 
+    margin-top: 20px;
+    padding-left: 150px;
+    width: 65%;
+    font-family: $texto;
+    font-size: 20px;
+    line-height: 20px;
+    color: $gris;}
+
+
+.tituloProductos {
+    height: 150px;
+}
+
+.tituloProductos h2{
+    padding-top: 52px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: $titulo;
+    font-size: 50px;
+    color: $gris;
+    }
+
+
+
+.producto1 { 
+    border: 20px solid white;
+    background-image: url(../image/pufuProducto1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 576px;
+}
+
+.producto1:hover {
+    background-image: url(../image/pufuProducto1B.jpg);
+    text-decoration: none;
+}
+
+.producto1 h3 {
+    display: none;
+}
+
+.producto1:hover h3 {
+    display: block;
+    font-family: $titulo;
+    color: $azul;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 250px;
+}
+
+
+
+.producto2 { 
+    border: 20px solid white;
+    background-image: url(../image/pufuProducto2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 576px;
+}
+
+.producto2:hover {
+    background-image: url(../image/pufuProducto2B.jpg);
+    text-decoration: none;
+}
+
+.producto2 h3 {
+    display: none;
+}
+
+.producto2:hover h3 {
+    display: block;
+    font-family: $titulo;
+    color: $azul;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 250px;
+}
+
+
+
+.producto3 { 
+    border: 20px solid white;
+    background-image: url(../image/pufuProducto3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 576px;
+}
+
+.producto3:hover {
+    background-image: url(../image/pufuProducto3B.jpg);
+    text-decoration: none;
+}
+
+.producto3 h3 {
+    display: none;
+}
+
+.producto3:hover h3 {
+    display: block;
+    font-family: $titulo;
+    color: $azul;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+
+
+.producto4 { 
+    border: 20px solid white;
+    background-image: url(../image/pufuProducto4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 576px;
+}
+
+.producto4:hover {
+    background-image: url(../image/pufuProducto4B.jpg);
+    text-decoration: none;
+}
+
+.producto4 h3 {
+    display: none;
+}
+
+.producto4:hover h3 {
+    display: block;
+    font-family: $titulo;
+    color: $azul;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+
+
+
+
+.pregunta {
+    height: 200px;
+    text-align: center;
+    
+}
+.pregunta h3 {
+    padding-top: 40px;
+    font-size: 30px;
+    color: $gris;
+    font-family: $texto;
+}
+.pregunta h2 a {
+    text-decoration: none;
+    color: $verde;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: $titulo;
+}
+.pregunta h2 a:hover {
+    color: $azul;
+ }
+
+
+
+
+
+footer{
+    margin-bottom: 0%;
+    height: 170px;
+    background-color: $verde;
+}
+.footer_contacto {
+    color: white;
+    padding-left: 100px;
+}
+.footer_contacto h3{
+    padding-top: 30px;
+    font-size: 18px;
+}
+.footer_contacto p { 
+    font-size: 15px;   
+}
+
+.redes {
+    padding-right: 100px;
+    text-align: right;
+    margin-top: 50px;
+}
+
+.redes a img {
+    width: 40px;
+    padding: 0px 5px;
+}
+
+.redes p{
+    font-size: 15px;   
+    color: white;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .logoPufu {
+        float: left;
+        width: 80px;
+    }
+    
+    .logoPufu img {
+        width: 80px;
+        padding-top: 12px;
+        margin-left: 40px;
+    }
+    
+    .logoPufu img:hover { 
+        width: 76px;
+        padding-top: 14px;
+        margin-left: 42px;
+    }
+
+    .menu_bar {
+        display: block;
+        float: right;
+        width: 100px;
+        height: 100px;
+    }
+
+    .menu_bar .btn_menu {
+        display: block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .menu_bar .btn_menu img {
+        float: right;
+        margin-top: 40px;
+        margin-right: 40px;
+        width: 40px;
+    }
+
+    header nav {
+        z-index: 1;
+        text-align: center;
+        margin-top: 120px;
+        background: $verde;
+        width: 100%;
+        height: 100%;
+        margin-left: 100%;
+        position: fixed;
+    }
+
+    header nav ul li {
+        padding-left: 30px;
+        display: block;
+        float: none;
+    }
+
+    header nav ul li a {
+        color: white;
+    }
+
+    header nav ul li a:hover{
+        color: $azul;
+    }
+
+
+    #principal {
+        min-height: 510px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(../image/pufuImagenPrincipal.jpg);
+    }
+
+    #principal h1 {
+        padding-top: 400px;
+        padding-left: 40px;
+        font-family: $titulo;
+        font-weight: bolder;
+        font-size: 30px;
+        line-height: 30px;
+        color: $verde;}
+    
+    #principal p { 
+        margin-top: 10px;
+        padding-left: 40px;
+        width: 65%;
+        font-family: $texto;
+        font-size: 15px;
+        line-height: 20px;
+        color: $azul;}
+    
+   .tituloProductos {
+        height: 75px;
+    }
+    
+    .tituloProductos h2{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 30px;
+        }
+
+    .producto1 { 
+        height: 360px;
+    }
+    .producto1 h3 {
+        display: block;
+        opacity: 100%;
+        font-family: $titulo;
+        color:$azul;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 275px;
+    }
+
+    .producto2 { 
+        height: 360px;
+    }
+    .producto2 h3 {
+        display: block;
+        opacity: 100%;
+        font-family: $titulo;
+        color:$azul;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 275px;
+    }
+
+    .producto3 { 
+        height: 360px;
+    }
+    .producto3 h3 {
+        display: block;
+        opacity: 100%;
+        font-family: $titulo;
+        color:$azul;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 275px;
+    }
+
+    .producto4 { 
+        height: 360px;
+    }
+    .producto4 h3 {
+        display: block;
+        opacity: 100%;
+        font-family: $titulo;
+        color:$azul;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 275px;
+    }
+
+
+
+    .pregunta {
+        height: 150px;
+        text-align: center;
+        
+    }
+    .pregunta h3 {
+        padding-top: 30px;
+        font-size: 20px;
+        color: $gris;
+        font-family: $texto;
+    }
+    .pregunta h2 a {
+        text-decoration: none;
+        color: $verde;
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: $titulo;
+    }
+    .pregunta h2 a:hover {
+        color: $azul;
+     }
+
+     
+
+
+
+    footer{
+        margin-bottom: 0%;
+        height: 150px;
+        background-color: $verde;
+    }
+    .footer_contacto {
+        color: white;
+        padding-left: 60px;
+    }
+    .footer_contacto h3{
+        padding-top: 30px;
+        font-size: 15px;
+    }
+    .footer_contacto p { 
+        font-size: 12px;   
+    }
+    
+    .redes {
+        padding-right: 60px;
+        text-align: right;
+        margin-top: 40px;
+    }
+    
+    .redes a img {
+        width: 40px;
+        padding: 0px 5px;
+    }
+    
+    .redes p{
+        font-size: 12px;  
+        color: white;
+        padding-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+    .logoPufu {
+        float: left;
+        width: 80px;
+    }
+    
+    .logoPufu img {
+        width: 70px;
+        padding-top: 12px;
+        margin-left: 20px;
+    }
+    
+    .logoPufu img:hover { 
+        width: 66px;
+        padding-top: 14px;
+        margin-left: 22px;
+    }
+
+    .menu_bar {
+        display: block;
+        float: right;
+        width: 100px;
+        height: 100px;
+    }
+
+    .menu_bar .btn_menu {
+        display: block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .menu_bar .btn_menu img {
+        float: right;
+        margin-top: 35px;
+        margin-right: 20px;
+        width: 40px;
+    }
+
+    header nav {
+        z-index: 1;
+        text-align: center;
+        margin-top: 110px;
+        background: $verde;
+        width: 100%;
+        height: 100%;
+        margin-left: 100%;
+        position: fixed;
+    }
+
+    header nav ul li {
+        padding-left: 40px;
+        display: block;
+        float: none;
+    }
+
+    header nav ul li a {
+        color: white;
+    } 
+
+    header nav ul li a:hover{
+        color: $azul;
+    }
+
+
+    #principal {
+        min-height: 400px;
+        background-size: cover;
+        background-position: right;
+        background-image: url(../image/pufuImagenPrincipal.jpg);
+    }
+
+    #principal h1 {
+        padding-top: 300px;
+        padding-left: 20px;
+        font-family: $titulo;
+        font-weight: bolder;
+        font-size: 20px;
+        line-height: 30px;
+        color:$verde;}
+    
+    #principal p { 
+        margin-top: 10px;
+        padding-left: 20px;
+        width: 85%;
+        font-family: $texto;
+        font-size: 15px;
+        line-height: 15px;
+        color:$azul;}
+    
+   .tituloProductos {
+        height: 75px;
+    }
+    
+    .tituloProductos h2{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 30px;
+        }
+
+    .producto1 { 
+        height: 360px;
+    }
+    .producto1 h3 {
+        display: block;
+        opacity: 100%;
+        font-family: $titulo;
+        color:$azul;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 275px;
+    }
+
+    .producto2 { 
+        height: 360px;
+    }
+    .producto2 h3 {
+        display: block;
+        opacity: 100%;
+        font-family: $titulo;
+        color:$azul;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 275px;
+    }
+
+    .producto3 { 
+        height: 360px;
+    }
+    .producto3 h3 {
+        display: block;
+        opacity: 100%;
+        font-family: $titulo;
+        color:$azul;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 275px;
+    }
+
+    .producto4 { 
+        height: 360px;
+    }
+    .producto4 h3 {
+        display: block;
+        opacity: 100%;
+        font-family: $titulo;
+        color:$azul;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 275px;
+    }
+
+
+
+    .pregunta {
+        height: 120px;
+        text-align: center;
+        
+    }
+    .pregunta h3 {
+        padding-top: 20px;
+        font-size: 15px;
+        color: $gris;
+        font-family: $texto;
+    }
+    .pregunta h2 a {
+        text-decoration: none;
+        color: $verde;
+        font-size: 18px;
+        font-weight: bolder;
+        font-family: $titulo;
+    }
+    .pregunta h2 a:hover {
+        color: $azul;
+     }
+
+     
+
+
+
+     footer{
+        margin-bottom: 0%;
+        height: 250px;
+        background-color: $verde;
+    }
+    .footer_contacto {
+        text-align: center;
+        color: white;
+        padding-left: 20px;
+    }
+    .footer_contacto h3{
+        padding-top: 30px;
+        font-size: 15px;
+    }
+    .footer_contacto p { 
+        font-size: 12px;   
+    }
+    
+    .redes {
+        padding-right: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .redes a img {
+        width: 40px;
+        padding: 0px 5px;
+    }
+    
+    .redes p{
+        font-size: 12px;  
+        color: white;
+        padding-top: 10px;
+    }
+}
+
+
