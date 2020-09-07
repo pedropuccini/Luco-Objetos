@@ -32,52 +32,58 @@
     </header>
     
 
-    <section id="mapa" class="container">
-        <img src="mapa.jpg" alt="Foto mapa">
-        <h2 class="titulos1">Mantengámonos en contacto</h2>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam magnam aut perferendis! Odio ducimus, dicta architecto nisi reprehenderit, quasi vitae sunt saepe quo possimus quis delectus veniam maxime ratione. Rem?</p>
+    <section id="contacto" class="container">
+        <div class="row"> 
+            <div class="contacto col-md-6 col-12">
+                <h2>Mantengámonos en contacto!</h2>
+                <p>Querés información sobre nuestros productos o necesitas un proyecto especial, solo escribinos unas líneas y nos pondremos en contacto.</p>
+                <p>Albarellos 1061, Acassuso<br> Buenos Aires, Argentina, 1641 <br> hola@pufu.com.ar <br>+54 9 11 36286920</p>
+             </div>
+            <div class="mapa col-md-6 col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105243.34638019587!2d-58.572604665780155!3d-34.48121326965843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb1b26b6bdfb9%3A0x23f83f929431028b!2sACI%2C%20Albarellos%201061%2C%20B1641%20Acassuso%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1599350241605!5m2!1ses!2sar" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
     </section>
 
-    <section id="formulario" class="container">
-        <form>
-			<fieldset>
-				<label for="nombre">Nombre</label>
-				<input type="text" name="nombre" placeholder="">
 
-				<br>
 
-				<label for="email">Email</label>
-				<input type="text" name="email" placeholder="">
+    <form id="formulario" class="container">
 
-				<br>
+        <div class="form-group">
+            <label for="exampleFormControlInput1"></label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+        </div> 
 
-				<label for="tinesInteresEn">Tienes interés en</label>
-				<select name="talle">
-					<option value="producto">Producto</option>
-					<option value="mobiliarioAmedida">Mobiliario a medida</option>
-					<option value="servicioDeDiseño">Servicio de diseño</option>
-				</select>
+        <div class="form-group">
+            <label for="exampleFormControlInput1"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+        </div> 
 
-                <br>
-                
-                <label for="mensae">Mensaje</label>
-                <input type="text" name="mensaje" placeholder="">
-                
-                <br>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1"></label>
+            <select class="custom-select">
+              <option value="">Tenés interés en:</option>
+              <option value="1">Nuestros productos</option>
+              <option value="2">Mobiliario a medida</option>
+              <option value="3">Servicio de diseño</option>
+            </select>
+        </div>
 
-				<input type="submit" value="Enviar">
+        <div class="mb-3">
+            <label for="validationTextarea"></label>
+            <textarea class="form-control" id="validationTextarea" placeholder="Deja tu mensaje aquí" required></textarea>
+        </div>
 
-			</fieldset>	
-		</form>
-    </section>
+        <button type="submit" class="btn btn-outline-info btn-lg">Enviar</button>
 
+    </form>
     
     <footer class=".container-fluid">
 
         <div class="row"> 
             <div class="col-md-6 col-12 footer_contacto">
                 <h3>Contacto</h3>
-                <p>Albarellos 1061 Acassuso, Buenos Aires, Argentina, 1641 <br> hola@pufumobiliario.com <br> Tel: +54 9 11 36286920</p>
+                <p>Albarellos 1061 Acassuso, Buenos Aires, Argentina, 1641 <br> hola@pufu.com.ar <br> Tel: +54 9 11 36286920</p>
             </div>
 
             <div class="col-md-6 col-12 redes">
@@ -87,7 +93,7 @@
                 <a href="facebook">
                     <img src="image/facebook.svg" alt="Pufu"> 
                 </a>
-                <p>© 2020 Pufu Mobiliario All rights reserved
+                <p>© 2020 Pufu All rights reserved
                 </p>
             </div>
         </div>
@@ -100,7 +106,7 @@
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="js/menu.js"></script>
 
 </html>

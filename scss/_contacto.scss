@@ -1,9 +1,45 @@
-#mapa {
-    padding-top: 200px;
-    padding-bottom: 50px;
+#contacto {
+    padding-top: 180px;
+    padding-bottom: 10px;
 }
+.contacto {
+    padding: 80px;
+    height: 550px;
+    }
+    
+    .contacto h2 {
+        padding-top: 50px;
+        text-align: center;
+        font-weight: bolder;
+        font-family: $titulo;
+        font-size: 30px;
+        color: $azul;
+    }
+    
+    .contacto p {
+        padding-top: 30px;
+        text-align: center;
+        font-family: $texto;
+        font-size: 18px;
+        color: $gris;
+    }
+    
+    .mapa iframe {
+        border: 20px solid white;
+        width: 100%;
+        height: 550px;
+    }
 
 #formulario {
+    text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    height: 550px;
+    font-weight: bolder;
+    font-family: $texto;
+    color: $azul;   
 }
+
+
+
+

@@ -31,13 +31,13 @@ header nav {
 .logoPufu img {
     width: 100px;
     padding-top: 15px;
-    margin-left: 80px;
+    margin-left: 120px;
 }
 
 .logoPufu img:hover { 
     width: 96px;
     padding-top: 17px;
-    margin-left: 82px;
+    margin-left: 122px;
 }
 
 .menu_bar {
@@ -45,7 +45,7 @@ header nav {
 }
 
 header nav ul {
-    margin-right: 80px;
+    margin-right: 120px;
     overflow: hidden;
     list-style: none;  
 }
@@ -82,23 +82,26 @@ header nav ul li a:hover {
     background-position: center;
     background-image: url(../image/pufuImagenPrincipal.jpg);
 }
+
 #principal h1 {
-    padding-top: 620px;
-    padding-left: 150px;
+    padding-top: 640px;
+    padding-left: 120px;
     font-family: $titulo;
     font-weight: bolder;
     font-size: 40px;
     line-height: 50px;
-    color: $verde;}
+    color: $verde;
+}
 
 #principal p { 
     margin-top: 20px;
-    padding-left: 150px;
-    width: 65%;
+    padding-left: 120px;
+    width: 80%;
     font-family: $texto;
     font-size: 20px;
     line-height: 20px;
-    color: $gris;}
+    color: $gris;
+}
 
 
 .tituloProductos {
@@ -111,7 +114,7 @@ header nav ul li a:hover {
     font-weight: bolder;
     font-family: $titulo;
     font-size: 50px;
-    color: $gris;
+    color: $azul;
     }
 
 
@@ -248,7 +251,7 @@ header nav ul li a:hover {
 .pregunta h2 a {
     text-decoration: none;
     color: $verde;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bolder;
     font-family: $titulo;
 }
@@ -365,12 +368,14 @@ footer{
     }
 
     header nav ul li {
-        padding-left: 30px;
+        padding-left: 60px;
         display: block;
         float: none;
     }
 
     header nav ul li a {
+        font-size: 18px;
+        padding: 20px;
         color: white;
     }
 
@@ -398,9 +403,9 @@ footer{
     #principal p { 
         margin-top: 10px;
         padding-left: 40px;
-        width: 65%;
+        width: 80%;
         font-family: $texto;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 20px;
         color: $gris;}
     
@@ -426,6 +431,15 @@ footer{
         text-align: center;
         margin-top: 275px;
     }
+    .producto1:hover h3 {
+        display: block;
+        font-family: $titulo;
+        color: $azul;
+        font-weight: bolder;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 275px;
+    }
 
     .producto2 { 
         height: 360px;
@@ -435,6 +449,15 @@ footer{
         opacity: 100%;
         font-family: $titulo;
         color:$azul;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 275px;
+    }
+    .producto2:hover h3 {
+        display: block;
+        font-family: $titulo;
+        color: $azul;
+        font-weight: bolder;
         font-size: 25px;
         text-align: center;
         margin-top: 275px;
@@ -452,6 +475,15 @@ footer{
         text-align: center;
         margin-top: 275px;
     }
+    .producto3:hover h3 {
+        display: block;
+        font-family: $titulo;
+        color: $azul;
+        font-weight: bolder;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 275px;
+    }
 
     .producto4 { 
         height: 360px;
@@ -461,6 +493,15 @@ footer{
         opacity: 100%;
         font-family: $titulo;
         color:$azul;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 275px;
+    }
+    .producto4:hover h3 {
+        display: block;
+        font-family: $titulo;
+        color: $azul;
+        font-weight: bolder;
         font-size: 25px;
         text-align: center;
         margin-top: 275px;
@@ -592,12 +633,14 @@ footer{
     }
 
     header nav ul li {
-        padding-left: 40px;
+        padding-left: 70px;
         display: block;
         float: none;
     }
 
     header nav ul li a {
+        font-size: 15px;
+        padding: 5px;
         color: white;
     } 
 
@@ -625,10 +668,10 @@ footer{
     #principal p { 
         margin-top: 10px;
         padding-left: 20px;
-        width: 85%;
+        width: 95%;
         font-family: $texto;
-        font-size: 12px;
-        line-height: 12px;
+        font-size: 13px;
+        line-height: 13px;
         color:$gris;}
     
    .tituloProductos {

@@ -1,4 +1,64 @@
 #servicios {
-    padding-top: 200px;
-    padding-bottom: 50px;
+    padding-top: 180px;
+    padding-bottom: 10px;
+}
+
+.mobiliario {
+padding: 80px;
+height: 550px;
+}
+
+.mobiliario h2 {
+    padding-top: 70px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: $titulo;
+    font-size: 30px;
+    color: $azul;
+}
+
+.mobiliario p {
+    padding-top: 30px;
+    text-align: center;
+    font-family: $texto;
+    font-size: 18px;
+    color: $gris;
+}
+
+.img_mobiliario {
+    border: 20px solid white;
+    background-image: url(../image/mobiliario_a_medida.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+
+.img_servicios {
+    border: 20px solid white;
+    background-image: url(../image/servicios.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+
+.servicios {
+    padding: 80px;
+    height: 550px;
+    } 
+
+.servicios h2 {
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: $titulo;
+    font-size: 30px;
+    color: $azul;
+}
+
+.servicios p {
+    padding-top: 30px;
+    text-align: center;
+    font-family: $texto;
+    font-size: 18px;
+    color: $gris;
 }

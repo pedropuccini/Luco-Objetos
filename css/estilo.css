@@ -1,24 +1,193 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 #nosotros {
-  padding-top: 200px;
+  padding-top: 180px;
   padding-bottom: 50px; }
+
+.historia h2 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Nunito", sans-serif;
+  font-size: 40px;
+  color: #042F39; }
+
+.historia p {
+  padding-top: 30px;
+  text-align: justify;
+  font-family: "roboto", sans-serif;
+  font-size: 18px;
+  color: #919396; }
+
+.img_nosotros {
+  margin-top: 30px;
+  background-image: url(../image/nosotros.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 700px; }
+
+.nosotros h2 {
+  padding-top: 50px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Nunito", sans-serif;
+  font-size: 40px;
+  color: #042F39; }
+
+.nosotros p {
+  padding-top: 30px;
+  text-align: justify;
+  font-family: "roboto", sans-serif;
+  font-size: 18px;
+  color: #919396; }
 
 #servicios {
-  padding-top: 200px;
-  padding-bottom: 50px; }
+  padding-top: 180px;
+  padding-bottom: 10px; }
 
-#mapa {
-  padding-top: 200px;
-  padding-bottom: 50px; }
+.mobiliario {
+  padding: 80px;
+  height: 550px; }
+
+.mobiliario h2 {
+  padding-top: 70px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  color: #042F39; }
+
+.mobiliario p {
+  padding-top: 30px;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-size: 18px;
+  color: #919396; }
+
+.img_mobiliario {
+  border: 20px solid white;
+  background-image: url(../image/mobiliario_a_medida.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 550px; }
+
+.img_servicios {
+  border: 20px solid white;
+  background-image: url(../image/servicios.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 550px; }
+
+.servicios {
+  padding: 80px;
+  height: 550px; }
+
+.servicios h2 {
+  padding-top: 100px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  color: #042F39; }
+
+.servicios p {
+  padding-top: 30px;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-size: 18px;
+  color: #919396; }
+
+#contacto {
+  padding-top: 180px;
+  padding-bottom: 10px; }
+
+.contacto {
+  padding: 80px;
+  height: 550px; }
+
+.contacto h2 {
+  padding-top: 50px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  color: #042F39; }
+
+.contacto p {
+  padding-top: 30px;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-size: 18px;
+  color: #919396; }
+
+.mapa iframe {
+  border: 20px solid white;
+  width: 100%;
+  height: 550px; }
 
 #formulario {
+  text-align: center;
   padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  height: 550px;
+  font-weight: bolder;
+  font-family: "roboto", sans-serif;
+  color: #042F39; }
 
 #blog {
-  padding-top: 200px;
+  padding-top: 180px;
   padding-bottom: 50px; }
+
+.blog_1 {
+  padding: 20px;
+  height: 550px; }
+
+.img_blog_1 {
+  border: 20px solid white;
+  background-image: url(../image/img_blog_1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 550px; }
+
+.blog_1 h2 {
+  padding-top: 30px;
+  text-align: justify;
+  font-weight: bolder;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  color: #042F39; }
+
+.blog_1 p {
+  padding-top: 30px;
+  text-align: justify;
+  font-family: "roboto", sans-serif;
+  font-size: 18px;
+  color: #919396; }
+
+.img_blog_2 {
+  border: 20px solid white;
+  background-image: url(../image/img_blog_2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 550px; }
+
+.blog_2 {
+  padding: 20px;
+  height: 550px; }
+
+.blog_2 h2 {
+  text-align: justify;
+  padding-top: 30px;
+  font-weight: bolder;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  color: #042F39; }
+
+.blog_2 p {
+  text-align: justify;
+  padding-top: 30px;
+  font-family: "roboto", sans-serif;
+  font-size: 18px;
+  color: #919396; }
 
 #producto1 {
   padding-top: 200px;
@@ -43,18 +212,18 @@ header nav {
 .logoPufu img {
   width: 100px;
   padding-top: 15px;
-  margin-left: 80px; }
+  margin-left: 120px; }
 
 .logoPufu img:hover {
   width: 96px;
   padding-top: 17px;
-  margin-left: 82px; }
+  margin-left: 122px; }
 
 .menu_bar {
   display: none; }
 
 header nav ul {
-  margin-right: 80px;
+  margin-right: 120px;
   overflow: hidden;
   list-style: none; }
 
@@ -84,8 +253,8 @@ header nav ul li a:hover {
   background-image: url(../image/pufuImagenPrincipal.jpg); }
 
 #principal h1 {
-  padding-top: 620px;
-  padding-left: 150px;
+  padding-top: 640px;
+  padding-left: 120px;
   font-family: "Nunito", sans-serif;
   font-weight: bolder;
   font-size: 40px;
@@ -94,8 +263,8 @@ header nav ul li a:hover {
 
 #principal p {
   margin-top: 20px;
-  padding-left: 150px;
-  width: 65%;
+  padding-left: 120px;
+  width: 80%;
   font-family: "roboto", sans-serif;
   font-size: 20px;
   line-height: 20px;
@@ -110,7 +279,7 @@ header nav ul li a:hover {
   font-weight: bolder;
   font-family: "Nunito", sans-serif;
   font-size: 50px;
-  color: #919396; }
+  color: #042F39; }
 
 .producto1 {
   border: 20px solid white;
@@ -217,7 +386,7 @@ header nav ul li a:hover {
 .pregunta h2 a {
   text-decoration: none;
   color: #10A5B5;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bolder;
   font-family: "Nunito", sans-serif; }
 
@@ -291,10 +460,12 @@ footer {
     margin-left: 100%;
     position: fixed; }
   header nav ul li {
-    padding-left: 30px;
+    padding-left: 60px;
     display: block;
     float: none; }
   header nav ul li a {
+    font-size: 18px;
+    padding: 20px;
     color: white; }
   header nav ul li a:hover {
     color: #042F39; }
@@ -314,9 +485,9 @@ footer {
   #principal p {
     margin-top: 10px;
     padding-left: 40px;
-    width: 65%;
+    width: 80%;
     font-family: "roboto", sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 20px;
     color: #919396; }
   .tituloProductos {
@@ -335,6 +506,14 @@ footer {
     font-size: 25px;
     text-align: center;
     margin-top: 275px; }
+  .producto1:hover h3 {
+    display: block;
+    font-family: "Nunito", sans-serif;
+    color: #042F39;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 275px; }
   .producto2 {
     height: 360px; }
   .producto2 h3 {
@@ -342,6 +521,14 @@ footer {
     opacity: 100%;
     font-family: "Nunito", sans-serif;
     color: #042F39;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 275px; }
+  .producto2:hover h3 {
+    display: block;
+    font-family: "Nunito", sans-serif;
+    color: #042F39;
+    font-weight: bolder;
     font-size: 25px;
     text-align: center;
     margin-top: 275px; }
@@ -355,6 +542,14 @@ footer {
     font-size: 25px;
     text-align: center;
     margin-top: 275px; }
+  .producto3:hover h3 {
+    display: block;
+    font-family: "Nunito", sans-serif;
+    color: #042F39;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 275px; }
   .producto4 {
     height: 360px; }
   .producto4 h3 {
@@ -362,6 +557,14 @@ footer {
     opacity: 100%;
     font-family: "Nunito", sans-serif;
     color: #042F39;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 275px; }
+  .producto4:hover h3 {
+    display: block;
+    font-family: "Nunito", sans-serif;
+    color: #042F39;
+    font-weight: bolder;
     font-size: 25px;
     text-align: center;
     margin-top: 275px; }
@@ -442,10 +645,12 @@ footer {
     margin-left: 100%;
     position: fixed; }
   header nav ul li {
-    padding-left: 40px;
+    padding-left: 70px;
     display: block;
     float: none; }
   header nav ul li a {
+    font-size: 15px;
+    padding: 5px;
     color: white; }
   header nav ul li a:hover {
     color: #042F39; }
@@ -465,10 +670,10 @@ footer {
   #principal p {
     margin-top: 10px;
     padding-left: 20px;
-    width: 85%;
+    width: 95%;
     font-family: "roboto", sans-serif;
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 13px;
+    line-height: 13px;
     color: #919396; }
   .tituloProductos {
     height: 75px; }
