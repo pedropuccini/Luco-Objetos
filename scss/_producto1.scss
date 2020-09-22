@@ -1,4 +1,116 @@
-#producto1 {
-    padding-top: 200px;
-    padding-bottom: 50px;
+#carouselcucha {
+    padding-top: 180px;
+}
+#cucha {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.cucha {
+    text-align: center;
+    padding: 80px;
+    height: 550px;
+}
+.cucha h2 {
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: $titulo;
+    font-size: 30px;
+    color: $azul;
+}   
+.cucha p {
+    padding-top: 30px;
+    text-align: justify;
+    font-family: $texto;
+    font-size: 18px;
+    color: $gris;
+}   
+.cucha button {
+    margin-top: 30px;
+}
+.ficha_cucha {
+    background-image: url(../image/cucha4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+
+@media (max-width: 768px) {
+    #carouselcucha {
+        padding-top: 130px;
+    }
+    #cucha {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    .cucha {
+        text-align: center;
+        padding: 40px;
+        height: 360px;
+    }
+    .cucha h2 {
+        padding-top: 5px;
+        text-align: center;
+        font-weight: bolder;
+        font-family: $titulo;
+        font-size: 25px;
+        color: $azul;
+    }   
+    .cucha p {
+        padding-top: 10px;
+        text-align: justify;
+        font-family: $texto;
+        font-size: 14px;
+        color: $gris;
+    }   
+    .cucha button {
+        margin-top: 10px;
+    }
+    .ficha_cucha {
+        border: 30px solid white;
+        background-image: url(../image/cucha4.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 360px;
+    } 
+}
+@media (max-width: 576px){
+    #carouselcucha {
+        padding-top: 130px;
+    }
+    #cucha {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .ficha_cucha {
+        border: 30px solid white;
+        background-image: url(../image/cucha4.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 360px;
+    }    
+    .cucha {
+        text-align: center;
+        padding: 30px;
+        height: 360px;
+    }
+    .cucha h2 {
+        padding-top: 0px;
+        text-align: center;
+        font-weight: bolder;
+        font-family: $titulo;
+        font-size: 25px;
+        color: $azul;
+    }   
+    .cucha p {
+        padding-top: 30px;
+        text-align: justify;
+        font-family: $texto;
+        font-size: 14px;
+        color: $gris;
+    }   
+    .cucha button {
+        margin-top: 30px;
+    }
+     
 }

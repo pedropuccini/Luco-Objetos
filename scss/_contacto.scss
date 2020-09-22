@@ -5,31 +5,27 @@
 .contacto {
     padding: 80px;
     height: 550px;
-    }
-    
-    .contacto h2 {
-        padding-top: 50px;
-        text-align: center;
-        font-weight: bolder;
-        font-family: $titulo;
-        font-size: 30px;
-        color: $azul;
-    }
-    
-    .contacto p {
-        padding-top: 30px;
-        text-align: center;
-        font-family: $texto;
-        font-size: 18px;
-        color: $gris;
-    }
-    
-    .mapa iframe {
-        border: 20px solid white;
-        width: 100%;
-        height: 550px;
-    }
-
+}
+.contacto h2 {
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: $titulo;
+    font-size: 30px;
+    color: $azul;
+}   
+.contacto p {
+    padding-top: 30px;
+    text-align: center;
+    font-family: $texto;
+    font-size: 18px;
+    color: $gris;
+}   
+.mapa iframe {
+    border: 20px solid white;
+     width: 100%;
+    height: 550px;
+}
 #formulario {
     text-align: center;
     padding-top: 50px;
@@ -39,7 +35,81 @@
     font-family: $texto;
     color: $azul;   
 }
-
-
-
-
+@media (max-width: 768px) {
+    #contacto {
+        padding-top: 150px;
+        padding-bottom: 0px;
+    }
+    .contacto {
+        padding: 20px;
+        height: 360px;
+    }
+    .contacto h2 {
+        padding-top: 0px;
+        text-align: center;
+        font-weight: bolder;
+        font-family: $titulo;
+        font-size: 25px;
+        color: $azul;
+    }
+    .contacto p {
+        padding-top: 20px;
+        text-align: center;
+        font-family: $texto;
+        font-size: 16px;
+        color: $gris;
+    } 
+    .mapa iframe {
+        border: 20px solid white;
+        width: 100%;
+        height: 360px;
+    }
+    #formulario {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 430px;
+        font-weight: bolder;
+        font-family: $texto;
+        color: $azul;   
+    }
+}
+@media (max-width: 576px) {
+    #contacto {
+        padding-top: 110px;
+        padding-bottom: 0px;
+    }
+    .contacto {
+        padding: 40px;
+        height: 360px;
+        }
+    .contacto h2 {
+        padding-top: 0px;
+        text-align: center;
+        font-weight: bolder;
+        font-family: $titulo;
+        font-size: 25px;
+        color: $azul;
+    }
+    .contacto p {
+        padding-top: 20px;
+        text-align: center;
+        font-family: $texto;
+        font-size: 14px;
+        color: $gris;
+    }
+    .mapa iframe {
+        border: 20px solid white;
+        width: 100%;
+        height: 360px;
+    }
+    #formulario {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 430px;
+        font-weight: bolder;
+        font-family: $texto;
+        color: $azul;   
+    }
+}

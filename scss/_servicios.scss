@@ -62,3 +62,141 @@ height: 550px;
     font-size: 18px;
     color: $gris;
 }
+
+@media (max-width: 768px) {
+
+    #servicios {
+        padding-top: 150px;
+        padding-bottom: 0px;
+    }
+    
+    .mobiliario {
+    padding: 50px;
+    height: 360px;
+    }
+    
+    .mobiliario h2 {
+        padding-top: 40px;
+        text-align: center;
+        font-weight: bolder;
+        font-family: $titulo;
+        font-size: 25px;
+        color: $azul;
+    }
+    
+    .mobiliario p {
+        padding-top: 15px;
+        text-align: center;
+        font-family: $texto;
+        font-size: 16px;
+        color: $gris;
+    }
+    
+    .img_mobiliario {
+        border: 20px solid white;
+        background-image: url(../image/mobiliario_a_medida.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 360px;
+    }
+    
+    .img_servicios {
+        border: 20px solid white;
+        background-image: url(../image/servicios.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 360px;
+    }
+    
+    .servicios {
+        padding: 50px;
+        height: 360px;
+        } 
+    
+    .servicios h2 {
+        padding-top: 40px;
+        text-align: center;
+        font-weight: bolder;
+        font-family: $titulo;
+        font-size: 25px;
+        color: $azul;
+    }
+    
+    .servicios p {
+        padding-top: 15px;
+        text-align: center;
+        font-family: $texto;
+        font-size: 16px;
+        color: $gris;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    #servicios {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .mobiliario {
+    padding: 40px;
+    height: 300px;
+    }
+    
+    .mobiliario h2 {
+        padding-top: 40px;
+        text-align: center;
+        font-weight: bolder;
+        font-family: $titulo;
+        font-size: 25px;
+        color: $azul;
+    }
+    
+    .mobiliario p {
+        padding-top: 15px;
+        text-align: center;
+        font-family: $texto;
+        font-size: 16px;
+        color: $gris;
+    }
+    
+    .img_mobiliario {
+        border: 20px solid white;
+        background-image: url(../image/mobiliario_a_medida.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 360px;
+    }
+    
+    .img_servicios {
+        border: 20px solid white;
+        background-image: url(../image/servicios.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 360px;
+    }
+    
+    .servicios {
+        padding: 40px;
+        height: 300px;
+        } 
+    
+    .servicios h2 {
+        padding-top: 40px;
+        text-align: center;
+        font-weight: bolder;
+        font-family: $titulo;
+        font-size: 25px;
+        color: $azul;
+    }
+    
+    .servicios p {
+        padding-top: 15px;
+        text-align: center;
+        font-family: $texto;
+        font-size: 16px;
+        color: $gris;
+    }
+
+}

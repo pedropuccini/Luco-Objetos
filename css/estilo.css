@@ -40,6 +40,78 @@
   font-size: 18px;
   color: #919396; }
 
+@media (max-width: 768px) {
+  #nosotros {
+    padding-top: 150px;
+    padding-bottom: 30px; }
+  .historia h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Nunito", sans-serif;
+    font-size: 35px;
+    color: #042F39; }
+  .historia p {
+    padding-top: 20px;
+    text-align: justify;
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    color: #919396; }
+  .img_nosotros {
+    margin-top: 20px;
+    background-image: url(../image/nosotros.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px; }
+  .nosotros h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Nunito", sans-serif;
+    font-size: 35px;
+    color: #042F39; }
+  .nosotros p {
+    padding-top: 20px;
+    text-align: justify;
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    color: #919396; } }
+
+@media (max-width: 576px) {
+  #nosotros {
+    padding-top: 130px;
+    padding-bottom: 20px; }
+  .historia h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+    color: #042F39; }
+  .historia p {
+    padding-top: 20px;
+    text-align: justify;
+    font-family: "roboto", sans-serif;
+    font-size: 14px;
+    color: #919396; }
+  .img_nosotros {
+    margin-top: 15px;
+    background-image: url(../image/nosotros.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px; }
+  .nosotros h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+    color: #042F39; }
+  .nosotros p {
+    padding-top: 15px;
+    text-align: justify;
+    font-family: "roboto", sans-serif;
+    font-size: 14px;
+    color: #919396; } }
+
 #servicios {
   padding-top: 180px;
   padding-bottom: 10px; }
@@ -96,6 +168,104 @@
   font-size: 18px;
   color: #919396; }
 
+@media (max-width: 768px) {
+  #servicios {
+    padding-top: 150px;
+    padding-bottom: 0px; }
+  .mobiliario {
+    padding: 50px;
+    height: 360px; }
+  .mobiliario h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    color: #042F39; }
+  .mobiliario p {
+    padding-top: 15px;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    color: #919396; }
+  .img_mobiliario {
+    border: 20px solid white;
+    background-image: url(../image/mobiliario_a_medida.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 360px; }
+  .img_servicios {
+    border: 20px solid white;
+    background-image: url(../image/servicios.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 360px; }
+  .servicios {
+    padding: 50px;
+    height: 360px; }
+  .servicios h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    color: #042F39; }
+  .servicios p {
+    padding-top: 15px;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    color: #919396; } }
+
+@media (max-width: 576px) {
+  #servicios {
+    padding-top: 0px;
+    padding-bottom: 0px; }
+  .mobiliario {
+    padding: 40px;
+    height: 300px; }
+  .mobiliario h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    color: #042F39; }
+  .mobiliario p {
+    padding-top: 15px;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    color: #919396; }
+  .img_mobiliario {
+    border: 20px solid white;
+    background-image: url(../image/mobiliario_a_medida.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 360px; }
+  .img_servicios {
+    border: 20px solid white;
+    background-image: url(../image/servicios.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 360px; }
+  .servicios {
+    padding: 40px;
+    height: 300px; }
+  .servicios h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    color: #042F39; }
+  .servicios p {
+    padding-top: 15px;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    color: #919396; } }
+
 #contacto {
   padding-top: 180px;
   padding-bottom: 10px; }
@@ -132,6 +302,72 @@
   font-weight: bolder;
   font-family: "roboto", sans-serif;
   color: #042F39; }
+
+@media (max-width: 768px) {
+  #contacto {
+    padding-top: 150px;
+    padding-bottom: 0px; }
+  .contacto {
+    padding: 20px;
+    height: 360px; }
+  .contacto h2 {
+    padding-top: 0px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    color: #042F39; }
+  .contacto p {
+    padding-top: 20px;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    color: #919396; }
+  .mapa iframe {
+    border: 20px solid white;
+    width: 100%;
+    height: 360px; }
+  #formulario {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 430px;
+    font-weight: bolder;
+    font-family: "roboto", sans-serif;
+    color: #042F39; } }
+
+@media (max-width: 576px) {
+  #contacto {
+    padding-top: 110px;
+    padding-bottom: 0px; }
+  .contacto {
+    padding: 40px;
+    height: 360px; }
+  .contacto h2 {
+    padding-top: 0px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    color: #042F39; }
+  .contacto p {
+    padding-top: 20px;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-size: 14px;
+    color: #919396; }
+  .mapa iframe {
+    border: 20px solid white;
+    width: 100%;
+    height: 360px; }
+  #formulario {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 430px;
+    font-weight: bolder;
+    font-family: "roboto", sans-serif;
+    color: #042F39; } }
 
 #blog {
   padding-top: 180px;
@@ -189,9 +425,162 @@
   font-size: 18px;
   color: #919396; }
 
-#producto1 {
-  padding-top: 200px;
-  padding-bottom: 50px; }
+@media (max-width: 768px) {
+  #blog {
+    padding-top: 150px;
+    padding-bottom: 20px; }
+  .blog_1 {
+    padding: 20px;
+    height: 360px; }
+  .img_blog_1 {
+    border: 20px solid white;
+    background-image: url(../image/img_blog_1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 360px; }
+  .blog_1 h2 {
+    padding-top: 0px;
+    text-align: justify;
+    font-weight: bolder;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    color: #042F39; }
+  .blog_1 p {
+    padding-top: 0px;
+    text-align: justify;
+    font-family: "roboto", sans-serif;
+    font-size: 13px;
+    color: #919396; }
+  .img_blog_2 {
+    border: 20px solid white;
+    background-image: url(../image/img_blog_2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 360px; }
+  .blog_2 {
+    padding: 20px;
+    height: 360px; }
+  .blog_2 h2 {
+    text-align: justify;
+    padding-top: 0px;
+    font-weight: bolder;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    color: #042F39; }
+  .blog_2 p {
+    text-align: justify;
+    padding-top: 0px;
+    font-family: "roboto", sans-serif;
+    font-size: 13px;
+    color: #919396; } }
+
+@media (max-width: 576px) {
+  #blog {
+    padding-top: 130px;
+    padding-bottom: 40px; } }
+
+#carouselcucha {
+  padding-top: 180px; }
+
+#cucha {
+  padding-top: 80px;
+  padding-bottom: 20px; }
+
+.cucha {
+  text-align: center;
+  padding: 80px;
+  height: 550px; }
+
+.cucha h2 {
+  padding-top: 50px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  color: #042F39; }
+
+.cucha p {
+  padding-top: 30px;
+  text-align: justify;
+  font-family: "roboto", sans-serif;
+  font-size: 18px;
+  color: #919396; }
+
+.cucha button {
+  margin-top: 30px; }
+
+.ficha_cucha {
+  background-image: url(../image/cucha4.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 550px; }
+
+@media (max-width: 768px) {
+  #carouselcucha {
+    padding-top: 130px; }
+  #cucha {
+    padding-top: 20px;
+    padding-bottom: 0px; }
+  .cucha {
+    text-align: center;
+    padding: 40px;
+    height: 360px; }
+  .cucha h2 {
+    padding-top: 5px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    color: #042F39; }
+  .cucha p {
+    padding-top: 10px;
+    text-align: justify;
+    font-family: "roboto", sans-serif;
+    font-size: 14px;
+    color: #919396; }
+  .cucha button {
+    margin-top: 10px; }
+  .ficha_cucha {
+    border: 30px solid white;
+    background-image: url(../image/cucha4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 360px; } }
+
+@media (max-width: 576px) {
+  #carouselcucha {
+    padding-top: 130px; }
+  #cucha {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .ficha_cucha {
+    border: 30px solid white;
+    background-image: url(../image/cucha4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 360px; }
+  .cucha {
+    text-align: center;
+    padding: 30px;
+    height: 360px; }
+  .cucha h2 {
+    padding-top: 0px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    color: #042F39; }
+  .cucha p {
+    padding-top: 30px;
+    text-align: justify;
+    font-family: "roboto", sans-serif;
+    font-size: 14px;
+    color: #919396; }
+  .cucha button {
+    margin-top: 30px; } }
+
+html {
+  overflow-x: hidden; }
 
 body {
   margin: 0;
@@ -215,6 +604,7 @@ header nav {
   margin-left: 120px; }
 
 .logoPufu img:hover {
+  transition: all 0.2s ease-in-out;
   width: 96px;
   padding-top: 17px;
   margin-left: 122px; }
@@ -243,6 +633,7 @@ header nav ul li a {
   color: #042F39; }
 
 header nav ul li a:hover {
+  transition: all 0.2s ease-in-out;
   text-decoration: none;
   color: #042F39; }
 
@@ -289,14 +680,16 @@ header nav ul li a:hover {
   height: 576px; }
 
 .producto1:hover {
+  transition: all 0.2s ease-in;
   background-image: url(../image/pufuProducto1B.jpg);
   text-decoration: none; }
 
 .producto1 h3 {
-  display: none; }
+  opacity: 0; }
 
 .producto1:hover h3 {
-  display: block;
+  transition: opacity 2s;
+  opacity: 1;
   font-family: "Nunito", sans-serif;
   color: #042F39;
   font-size: 40px;
@@ -312,14 +705,16 @@ header nav ul li a:hover {
   height: 576px; }
 
 .producto2:hover {
+  transition: all 0.2s ease-in;
   background-image: url(../image/pufuProducto2B.jpg);
   text-decoration: none; }
 
 .producto2 h3 {
-  display: none; }
+  opacity: 0; }
 
 .producto2:hover h3 {
-  display: block;
+  transition: opacity 2s;
+  opacity: 1;
   font-family: "Nunito", sans-serif;
   color: #042F39;
   font-size: 40px;
@@ -335,14 +730,16 @@ header nav ul li a:hover {
   height: 576px; }
 
 .producto3:hover {
+  transition: all 0.2s ease-in;
   background-image: url(../image/pufuProducto3B.jpg);
   text-decoration: none; }
 
 .producto3 h3 {
-  display: none; }
+  opacity: 0; }
 
 .producto3:hover h3 {
-  display: block;
+  transition: opacity 2s;
+  opacity: 1;
   font-family: "Nunito", sans-serif;
   color: #042F39;
   font-weight: bolder;
@@ -358,14 +755,16 @@ header nav ul li a:hover {
   height: 576px; }
 
 .producto4:hover {
+  transition: all 0.2s ease-in;
   background-image: url(../image/pufuProducto4B.jpg);
   text-decoration: none; }
 
 .producto4 h3 {
-  display: none; }
+  opacity: 0; }
 
 .producto4:hover h3 {
-  display: block;
+  transition: opacity 2s;
+  opacity: 1;
   font-family: "Nunito", sans-serif;
   color: #042F39;
   font-weight: bolder;
@@ -391,6 +790,7 @@ header nav ul li a:hover {
   font-family: "Nunito", sans-serif; }
 
 .pregunta h2 a:hover {
+  transition: all 0.2s ease-in-out;
   color: #042F39; }
 
 footer {

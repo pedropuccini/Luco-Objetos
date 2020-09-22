@@ -5,7 +5,9 @@
 @import "blog";
 @import "producto1";
 
-
+html {
+    overflow-x: hidden 
+}
 
 body {
     margin: 0;
@@ -19,8 +21,7 @@ header {
 }
 
 header nav {
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .logoPufu {
@@ -35,6 +36,7 @@ header nav {
 }
 
 .logoPufu img:hover { 
+    transition: all 0.2s ease-in-out;
     width: 96px;
     padding-top: 17px;
     margin-left: 122px;
@@ -69,6 +71,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
+    transition: all 0.2s ease-in-out;
     text-decoration: none;
     color: $azul;
 }
@@ -128,16 +131,18 @@ header nav ul li a:hover {
 }
 
 .producto1:hover {
+    transition: all 0.2s ease-in;
     background-image: url(../image/pufuProducto1B.jpg);
     text-decoration: none;
 }
 
 .producto1 h3 {
-    display: none;
+    opacity: 0;
 }
 
 .producto1:hover h3 {
-    display: block;
+    transition: opacity 2s;
+    opacity: 1;
     font-family: $titulo;
     color: $azul;
     font-size: 40px;
@@ -157,16 +162,18 @@ header nav ul li a:hover {
 }
 
 .producto2:hover {
+    transition: all 0.2s ease-in;
     background-image: url(../image/pufuProducto2B.jpg);
     text-decoration: none;
 }
 
 .producto2 h3 {
-    display: none;
+    opacity: 0;
 }
 
 .producto2:hover h3 {
-    display: block;
+    transition: opacity 2s;
+    opacity: 1;
     font-family: $titulo;
     color: $azul;
     font-size: 40px;
@@ -186,16 +193,18 @@ header nav ul li a:hover {
 }
 
 .producto3:hover {
+    transition: all 0.2s ease-in;
     background-image: url(../image/pufuProducto3B.jpg);
     text-decoration: none;
 }
 
 .producto3 h3 {
-    display: none;
+    opacity: 0;
 }
 
 .producto3:hover h3 {
-    display: block;
+    transition: opacity 2s;
+    opacity: 1;
     font-family: $titulo;
     color: $azul;
     font-weight: bolder;
@@ -215,16 +224,18 @@ header nav ul li a:hover {
 }
 
 .producto4:hover {
+    transition: all 0.2s ease-in;
     background-image: url(../image/pufuProducto4B.jpg);
     text-decoration: none;
 }
 
 .producto4 h3 {
-    display: none;
+    opacity: 0;
 }
 
 .producto4:hover h3 {
-    display: block;
+    transition: opacity 2s;
+    opacity: 1;
     font-family: $titulo;
     color: $azul;
     font-weight: bolder;
@@ -232,8 +243,6 @@ header nav ul li a:hover {
     text-align: center;
     margin-top: 250px;
 }
-
-
 
 
 
@@ -256,10 +265,9 @@ header nav ul li a:hover {
     font-family: $titulo;
 }
 .pregunta h2 a:hover {
+    transition: all 0.2s ease-in-out;
     color: $azul;
  }
-
-
 
 
 
@@ -296,21 +304,6 @@ footer{
     color: white;
     padding-top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -569,13 +562,6 @@ footer{
         padding-top: 20px;
     }
 }
-
-
-
-
-
-
-
 
 
 
