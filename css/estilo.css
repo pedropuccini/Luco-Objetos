@@ -506,7 +506,10 @@
   font-size: 18px;
   color: #919396; }
 
-.cucha button {
+.cucha button .boton1 {
+  margin-top: 30px; }
+
+.cucha button .boton2 {
   margin-top: 30px; }
 
 .ficha_cucha {
@@ -578,6 +581,33 @@
     color: #919396; }
   .cucha button {
     margin-top: 30px; } }
+
+#compra {
+  padding-top: 250px;
+  height: 200px; }
+
+#carritoProductos {
+  text-align: center;
+  padding-top: 30px; }
+
+.carritoProducto1 {
+  text-align: center;
+  padding: 40px; }
+
+.carritoProducto2 {
+  text-align: center;
+  padding: 40px; }
+
+.carritoProducto3 {
+  text-align: center;
+  padding: 40px; }
+
+.carritoProducto4 {
+  text-align: center;
+  padding: 40px; }
+
+.pregunta {
+  padding-top: -40px; }
 
 html {
   overflow-x: hidden; }

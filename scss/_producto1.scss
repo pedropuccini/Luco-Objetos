@@ -25,9 +25,14 @@
     font-size: 18px;
     color: $gris;
 }   
-.cucha button {
+.cucha button .boton1{
     margin-top: 30px;
 }
+
+.cucha button .boton2{
+    margin-top: 30px;
+}
+
 .ficha_cucha {
     background-image: url(../image/cucha4.jpg);
     background-size: cover;
