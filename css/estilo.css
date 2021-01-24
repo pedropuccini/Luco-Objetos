@@ -582,13 +582,12 @@
   .cucha button {
     margin-top: 30px; } }
 
-#compra {
-  padding-top: 250px;
-  height: 200px; }
+#carritoTabla {
+  padding-top: 250px; }
 
 #carritoProductos {
   text-align: center;
-  padding-top: 30px; }
+  padding-top: 50px; }
 
 .carritoProducto1 {
   text-align: center;
@@ -605,9 +604,6 @@
 .carritoProducto4 {
   text-align: center;
   padding: 40px; }
-
-.pregunta {
-  padding-top: -40px; }
 
 html {
   overflow-x: hidden; }
