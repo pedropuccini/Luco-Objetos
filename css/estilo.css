@@ -501,16 +501,30 @@
 
 .cucha p {
   padding-top: 30px;
-  text-align: justify;
+  text-align: left;
   font-family: "roboto", sans-serif;
   font-size: 18px;
   color: #919396; }
 
-.cucha button .boton1 {
-  margin-top: 30px; }
+.boton_producto {
+  width: 100%;
+  height: 48px;
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+  color: #919396;
+  background-color: #10A5B5;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 24px; }
 
-.cucha button .boton2 {
-  margin-top: 30px; }
+.boton_producto:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #919396; }
+
+.boton_producto:focus {
+  outline: none; }
 
 .ficha_cucha {
   background-image: url(../image/cucha4.jpg);
@@ -582,28 +596,192 @@
   .cucha button {
     margin-top: 30px; } }
 
-#carritoTabla {
-  padding-top: 250px; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-#carritoProductos {
-  text-align: center;
-  padding-top: 50px; }
+img {
+  width: 100%;
+  margin-bottom: 10px; }
 
-.carritoProducto1 {
-  text-align: center;
-  padding: 40px; }
+.carrito {
+  padding-right: 120px; }
 
-.carritoProducto2 {
-  text-align: center;
-  padding: 40px; }
+#boton-carrito {
+  width: 70px;
+  height: 70px;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  float: right;
+  border: none;
+  color: #10A5B5;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all .3s; }
 
-.carritoProducto3 {
-  text-align: center;
-  padding: 40px; }
+#boton-carrito:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #919396; }
 
-.carritoProducto4 {
-  text-align: center;
-  padding: 40px; }
+#boton-carrito:focus {
+  outline: none; }
+
+#selecTipo {
+  border-color: #919396;
+  border-radius: 5px;
+  font-family: "Nunito", sans-serif;
+  color: #919396;
+  font-size: 18px;
+  width: 150px;
+  height: 30px;
+  margin: 0px auto;
+  display: flex; }
+
+#contenedor-productos {
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+p {
+  line-height: 1.8; }
+
+.producto {
+  max-width: 30%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px 5px rgba(0, 82, 67, 0.1);
+  border-radius: 10px; }
+
+.producto h3 {
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: "Nunito", sans-serif;
+  color: #042F39; }
+
+.producto p {
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: "Nunito", sans-serif;
+  color: #919396; }
+
+.precioProducto {
+  margin-top: -10px;
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: "Nunito", sans-serif;
+  color: #919396; }
+
+.boton-agregar {
+  width: 100%;
+  height: 48px;
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+  background-color: #10A5B5;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 24px; }
+
+.boton-agregar:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #919396;
+  border-radius: 24px; }
+
+.boton-agregar:focus {
+  outline: none; }
+
+.modal-contenedor {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s;
+  opacity: 0;
+  visibility: hidden; }
+
+.modal-active {
+  opacity: 1;
+  visibility: visible; }
+
+.modal-carrito {
+  position: relative;
+  background-color: white;
+  min-width: 500px;
+  padding: 20px;
+  margin-top: -100%;
+  transition: all .5s;
+  border-radius: 10px; }
+
+.modal-active .modal-carrito {
+  margin-top: 0; }
+
+.modal-carrito h3 {
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+  color: #042F39;
+  padding-bottom: 5px;
+  padding-left: 16px; }
+
+.modal-carrito P {
+  padding-top: 4px;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  color: #919396; }
+
+.modal-carrito #carritoCerrar {
+  position: absolute;
+  top: 12px;
+  right: 25px;
+  font-size: 30px;
+  color: #10A5B5;
+  border: none;
+  background-color: white; }
+
+.modal-carrito #carritoCerrar:hover {
+  cursor: pointer; }
+
+.modal-carrito #carritoCerrar:focus {
+  outline: none; }
+
+.modal-carrito .precioProducto {
+  padding-top: 10px; }
+
+.productoEnCarrito {
+  height: 60px;
+  border-left: 5px solid #919396;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin: 5px 0;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between; }
+
+.productoEnCarrito:hover {
+  border-left: 5px solid #10A5B5; }
+
+.boton-eliminar {
+  height: 38px;
+  background-color: white;
+  color: #E56E67;
+  border: none;
+  font-size: 20px; }
+
+.boton-eliminar:hover {
+  cursor: pointer; }
+
+.boton-eliminar:focus {
+  outline: none; }
 
 html {
   overflow-x: hidden; }
@@ -615,7 +793,7 @@ body {
 header {
   float: left;
   width: 100%;
-  height: 100px; }
+  height: 200px; }
 
 header nav {
   width: 100%; }
