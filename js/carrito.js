@@ -72,3 +72,9 @@ function actualizarCarrito() {
     contadorCarrito.innerText = carritoDeCompras.length
     precioTotal.innerText = carritoDeCompras.reduce((acc, el) => acc + el.precio, 0)
 }
+
+
+$("#selecTipo").hover( function (){
+    $( this ).css( "background" , "lightgrey" );
+});
+
