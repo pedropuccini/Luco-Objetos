@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pufu | Carrito | Mobiliario para mascotas</title>
+    <meta name="description" content="Diseñamos y fabricamos mobiliario para mejorar la experiencia del día a día junto a nuestras mascotas; pensamos en el entretenimiento, bienestar y seguridad de nuestros pequeños compañeros">
+    <meta name="keywords"  content="MUEBLES PARA MASCOTAS, CAMA PARA GATOS, CAMA PARA PERROS, TIENDA DE MASCOTAS, MUEBLES, MASCOTAS, GATOS, PERROS, RASCADORES, JUEGOS, CAMAS, CUCHAS, CORONAVIRUS GATOS, CORONAVIRUS PERROS, NOMBRES PARA GATOS, NOMBRES PARA PERROS, VETERINARIA, JUEGOS PARA GATOS, JUEGOS PARA PERROS, CUIDADO DE GATOS, CUIDADO DE PERROS, COMEDEROS">
+    <link rel="icon" href="image/logo_pufu_favicono.png" type="image/png"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/estilo.css">
+
+  
+</head>
+<body>
+  <header>
+    <div class="logoPufu">
+        <a href="index.html">
+            <img src="image/logo_pufu.png" alt="LogoPufu"> 
+        </a>
+    </div>
+    <div class="menu_bar">
+        <a href="#" class="btn_menu"><img src="image/menu_pufu_a.png" alt=""></a>
+    </div>
+    <nav>
+        <ul>
+            <li><a class="activo" href="tienda.html">Tienda</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="index.html">Productos</a></li>
+        </ul>  
+    </nav>
+    
+
+  </header>
+
+  
+
+    <!-- START SECTION STORE -->
+    <section class="store">
+      <div class="container">
+
+          <div class="items">
+
+              <div class="row">
+
+                  <div class="divItem col-12 col-md-6">
+                      <div class="item shadow mb-2">
+                          <img class="item-image" src="./image/pufuProducto1.jpg">
+                          <div class="item-details">
+                            <h3 class="item-title">Cucha</h3>
+                            <h4 class="item-price">12500 ARP</h4>
+                            <button class="item-button btn addToCart">Agregar al carrito</button>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="divItem col-12 col-md-6">
+                    <div class="item shadow mb-2">
+                        <img class="item-image" src="./image/pufuProducto2.jpg">
+                        <div class="item-details">
+                          <h3 class="item-title">Cama</h3>
+                          <h4 class="item-price">6900 ARP</h4>
+                          <button class="item-button btn  addToCart">Agregar al carrito</button>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="divItem col-12 col-md-6">
+                    <div class="item shadow mb-2">
+                        <img class="item-image" src="./image/pufuProducto3.jpg">
+                        <div class="item-details">
+                          <h3 class="item-title">Rascador</h3>
+                          <h4 class="item-price">4800 ARP</h4>
+                          <button class="item-button btn  addToCart">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="divItem col-12 col-md-6">
+                  <div class="item shadow mb-2">
+                      <img class="item-image" src="./image/pufuProducto4.jpg">
+                      <div class="item-details">
+                        <h3 class="item-title">Comedero</h3>
+                        <h4 class="item-price">3200 ARP</h4>
+                        <button class="item-button btn  addToCart">Agregar al carrito</button>
+                      </div>
+                  </div>
+                </div>
+                  
+              </div>
+
+          </div>
+
+      </div>
+  </section>
+  <!-- END SECTION STORE -->
+  
+
+      <div class="modal fade alert" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Producto en carrito!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Se aumentó correctamente la cantidad</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+
+  <!-- START SECTION SHOPPING CART -->
+  <section class="shopping-cart">
+      <div class="container">
+          <h3 class="text-center">Carrito de compra</h3>
+         
+          <div class="row">
+              <div class="col-6">
+                  <div class="shopping-cart-header">
+                      <h6>Producto</h6>
+                  </div>
+              </div>
+              <div class="col-2">
+                  <div class="shopping-cart-header">
+                      <h6 class="text-truncate">Precio</h6>
+                  </div>
+              </div>
+              <div class="col-4">
+                  <div class="shopping-cart-header">
+                      <h6>Cantidad</h6>
+                  </div>
+              </div>
+          </div>
+
+
+          <!-- ? START SHOPPING CART ITEMS -->
+          <div class="shopping-cart-items shoppingCartItemsContainer">
+          </div>
+          <!-- ? END SHOPPING CART ITEMS -->
+
+          <!-- START TOTAL -->
+          <div class="row">
+              <div class="col-12">
+                  <div class="shopping-cart-total d-flex align-items-center">
+                      <p class="mb-0">Total</p>
+                      <p class="ml-4 mb-0 shoppingCartTotal">0 ARP</p>
+                      <button class="btn ml-auto comprarButton" type="button" data-toggle="modal"
+                          data-target="#comprarModal">Comprar</button>
+                  </div>
+              </div>
+          </div>
+
+          <!-- END TOTAL -->
+
+          <!-- START MODAL COMPRA -->
+          <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="comprarModalLabel">Gracias por su compra</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                          <p>Pronto recibirá su pedido</p>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- END MODAL COMPRA -->
+
+
+      </div>
+
+  </section>
+  <!-- END SECTION SHOPPING CART -->
+
+    <section>
+        <div class="pregunta">
+            <h3>Tienes dudas sobre cómo comprar?</h3>
+            <h2>
+                <a href="contacto.html">Escríbenos y te guiamos</a>
+            </h2>
+        </div>
+    </section>
+
+    <footer class=".container-fluid">
+        <div class="row"> 
+            <div class="col-md-6 col-12 footer_contacto">
+                <h3>Contacto</h3>
+                <p>Albarellos 1061 Acassuso, Buenos Aires, Argentina, 1641 <br> hola@pufu.com.ar <br> Tel: +54 9 11 36286920</p>
+            </div>
+            <div class="col-md-6 col-12 redes">
+                <a href="https://www.instagram.com/">
+                    <img src="image/instagram.svg" alt="Pufu"> 
+                </a>
+                <a href="https://www.facebook.com/">
+                    <img src="image/facebook.svg" alt="Pufu"> 
+                </a>
+                <p>© 2020 Pufu All rights reserved
+                </p>
+            </div>
+        </div>          
+    </footer>
+</body>
+
+<script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/carrito.js"></script>
+
+</html>

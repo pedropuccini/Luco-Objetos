@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carrito {
+    padding-right: 130px;
+}
+#boton-carrito {
+    width: 50px;
+    height: 50px;
+    font-family: $titulo;
+    font-size: 30px;
+    float: right;
+    border: none;
+    color: $verde;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 50%;
+    
+    transition: all .3s;
+}
+#boton-carrito:hover {
+    cursor: pointer;
+    color: white;
+    background-color: $gris;
+}
+
+#boton-carrito:focus {
+    outline: none;
+}
+
+
+
+
+
+.divItem {
+
+    margin-bottom: 30px;
+}
+
+.item {
+    
+    border-radius: 20px;
+  }
+  
+  .item-title {
+    font-weight: 600;
+  }
+  
+  .item-image {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .item-details {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+
+  .divItem h3{
+    font-size: 30px;
+    font-family: $titulo;
+    color: $azul;
+  }
+
+  .divItem h4{
+    font-size: 20px;
+    font-family: $titulo;
+    color: $gris;
+  }
+
+  .divItem button {
+    margin-top: 20px;
+    width: 100%;
+    height: 48px;
+    font-size: 30px;
+    font-family: $titulo;
+    background-color: white;
+    color: $verde;
+    font-size: 18px;
+    border: 2px solid $verde;
+    border-radius: 24px;
+ }
+
+.divItem button:hover {
+    transition: 400ms;
+    cursor: pointer;
+    color: white;
+    background-color: $verde;
+    border-radius: 24px;
+}
+
+.divItem button:focus {
+    outline: none;
+}
+
+
+
+  
+  
+  /* ? SHOPPING CART */
+  .shopping-cart-items {
+    padding: 20px 0px;
+  }
+
+  .shopping-cart h3 {
+    margin: 40px;
+    font-size: 30px;
+    font-family: $titulo;
+    color: $azul;
+  }
+  
+  .shopping-cart-header {
+    border-bottom: 1px solid $gris;
+  }
+  
+  .shopping-cart-image {
+    max-width: 80px;
+    border-radius: 20px;
+  }
+  
+  .shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid $gris;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .shopping-cart-total {
+    min-height: 96px;
+  }
+  
+
+  .comprarButton {
+    width: 192px;
+    height: 48px;
+    font-size: 30px;
+    font-family: $titulo;
+    background-color: $verde;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 24px;
+
+  }
+
+  .comprarButton:hover {
+    transition: 400ms;
+    cursor: pointer;
+    color: white;
+    background-color: $gris;
+    border-radius: 24px;
+}
+
+.comprarButton:focus {
+    outline: none;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 576px){ 
+     
+}

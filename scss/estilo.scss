@@ -4,7 +4,7 @@
 @import "contacto";
 @import "blog";
 @import "producto1";
-@import "carrito";
+@import "tienda";
 
 html {
     overflow-x: hidden 
@@ -88,11 +88,11 @@ header nav ul li a:hover {
 }
 
 #principal h1 {
-    padding-top: 640px;
+    padding-top: 630px;
     padding-left: 120px;
     font-family: $titulo;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 50px;
     line-height: 50px;
     color: $verde;
 }
@@ -102,8 +102,8 @@ header nav ul li a:hover {
     padding-left: 120px;
     width: 80%;
     font-family: $texto;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 25px;
+    line-height: 30px;
     color: $gris;
 }
 
@@ -124,6 +124,7 @@ header nav ul li a:hover {
 
 
 .producto1 { 
+    padding: 10px;
     border: 20px solid white;
     background-image: url(../image/pufuProducto1.jpg);
     background-size: cover;
@@ -151,6 +152,8 @@ header nav ul li a:hover {
     text-align: center;
     margin-top: 250px;
 }
+
+
 
 
 
@@ -218,6 +221,7 @@ header nav ul li a:hover {
 
 .producto4 { 
     border: 20px solid white;
+    border-radius: 20px;
     background-image: url(../image/pufuProducto4.jpg);
     background-size: cover;
     background-position: center;
