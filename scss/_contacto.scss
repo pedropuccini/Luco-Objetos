@@ -35,6 +35,31 @@
     font-family: $texto;
     color: $azul;   
 }
+
+.boton_enviar {
+    width: 192px;
+    height: 48px;
+    font-size: 30px;
+    font-family: $titulo;
+    color: $gris;
+    background-color: $verde;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 24px;
+}  
+
+.boton_enviar:hover {
+    cursor: pointer;
+    color: white;
+    background-color: $gris;
+}
+
+.boton_enviar:focus {
+    outline: none;
+}
+
+
 @media (max-width: 768px) {
     #contacto {
         padding-top: 150px;
